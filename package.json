@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kevinswiber/zetta-peer-auth.git"
+    "url": "https://github.com/zettajs/zetta-peer-auth.git"
   },
   "keywords": [
     "zetta",
@@ -24,7 +24,7 @@
   "author": "Kevin Swiber <kswiber@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kevinswiber/zetta-peer-auth/issues"
+    "url": "https://github.com/zettajs/zetta-peer-auth/issues"
   },
-  "homepage": "https://github.com/kevinswiber/zetta-peer-auth"
+  "homepage": "https://github.com/zettajs/zetta-peer-auth"
 }
