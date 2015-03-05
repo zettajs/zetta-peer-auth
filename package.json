@@ -1,0 +1,31 @@
+{
+  "name": "zetta-peer-auth",
+  "version": "0.1.0",
+  "description": "Add authorization to Zetta peer requests.",
+  "main": "auth.js",
+  "dependencies": {
+    "rx": "^2.4.1",
+    "revolt": "^0.7.0",
+    "revolt-json-parser": "^0.2.0",
+    "zetta": "^0.21.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevinswiber/zetta-peer-auth.git"
+  },
+  "keywords": [
+    "zetta",
+    "authorization",
+    "peer"
+  ],
+  "author": "Kevin Swiber <kswiber@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kevinswiber/zetta-peer-auth/issues"
+  },
+  "homepage": "https://github.com/kevinswiber/zetta-peer-auth"
+}
