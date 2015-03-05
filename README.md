@@ -1,6 +1,6 @@
 # zetta-peer-auth
 
-Add an authorization upon receiving 401 responses from peers.
+Add authorization to Zetta peer requests.
 
 ## Install
 
