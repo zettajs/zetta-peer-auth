@@ -2,6 +2,8 @@
 
 Add authorization to Zetta peer requests.
 
+Note: This currently only supports the OAuth Client Credentials grant type.
+
 ## Install
 
 `npm install zetta-peer-auth`
@@ -17,14 +19,14 @@ var options = {
     'Authorization': new Buffer('user:password').toString('base64'),
     'Content-Type': 'application/x-www-form-urlencoded'
   },
-  url: 'https://<authorizationserver>',
+  url: 'https://<authorization_server>',
   method: 'POST',
   body: 'grant_type=client_credentials'
-};
+}; // request to receive an access token
 
 zetta()
   .use(auth(options))
-  .link('http://centralite-test.apigee.net/zetta-cloud-2')
+  .link('http://<resource_server>')
   .listen(3001)
 ```
 
